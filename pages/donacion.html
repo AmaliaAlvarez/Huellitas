@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400&display=swap"
+        rel="stylesheet">
+    <title>Huellitas</title>
+</head>
+
+<body class="fondoPatitas">
+    <header>
+        <nav class="menu">
+            <a href="../index.html"><img src="../img/logo2.jpeg" alt="logo Huellitas" class="imgLogo"></a>
+            <ul class="menuOpciones">
+                <li><a href="../index.html"> Home </a></li>
+                <li class="dropdown">
+                    <a href="./adopcion.html" class="dropbtn"> Adopción </a>
+
+                    <div class="dropdown-content">
+                        <a a href="./perritos.html">Perritos</a>
+                        <a a href="./gatitos.html">Gatitos</a>
+                    </div>
+                </li>
+
+                <li><a href="./donacion.html" class="active"> Donaciones </a></li>
+                <li><a href="./castraciones.html"> Castraciones </a></li>
+                <li><a href="./transito.html"> Tránsito </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 class="textCenter"> Donaciones </h1>
+            <h2 class="tituloSecundario"> ¿Querés ayudarnos? </h2>
+        </div>
+        <section class="container">
+            <div class="imageContainer">
+                <p class="textSecundario"> Necesitamos tu apoyo para solventar los gastos de nuestros animalitos
+                </p>
+                <!-- la clase containerImg tiene la modificaicon para la MQ -->
+                <div class="containerImg">
+                    <img src="../img/donacion.jpg" class="imgSize" alt="Donacion">
+                </div>
+                <p class="textSecundario"> Nuestro objetivo es seguir ayudando a encontrar hogares para nuestros
+                    rescatados y tambien brindar un hogar digno a los que no tienen la suerte de ser adoptados.</p>
+                <p class="textSecundario"> Seria imposible sin tu ayuda, te agradecemos tu colaboración. </p>
+            </div>
+
+            <article>
+                <p class="parrafo"> Todo lo donado sera para: </p>
+                <ul>
+                    <li> Alimentos </li>
+                    <li> Medicamentos </li>
+                    <li> Insumos </li>
+                    <li> Cuchas </li>
+                    <li> Transito </li>
+                </ul>
+
+            </article>
+        </section>
+
+        <div class="containerValores">
+            <form>
+                <fieldset class="formDonacion">
+                    <p class="textCenter"> Vos podes ayudarnos </p>
+                    <select name="dinero" id="dinero">
+                        <option value="100$"> 100$ </option>
+                        <option value="200$"> 200$ </option>
+                        <option value="300$"> 300$ </option>
+                        <option value="400$"> 400$ </option>
+                        <option value="500$"> 500$ </option>
+                        <option value="600$"> 600$ </option>
+                        <option value="700$"> 700$ </option>
+                        <option value="800$"> 800$ </option>
+                        <option value="900$"> 900$ </option>
+                        <option value="1000$"> 1000$ </option>
+                    </select>
+                    <input type="submit" value="Donar" />
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footerIzquierda">
+            <div class="div1">
+                <a href="../index.html"> Home </a>
+                <a href="./adopcion.html"> Adopción </a>
+                <a href="./donacion.html"> Donaciones </a>
+                <a href="./castraciones.html"> Castraciones </a>
+                <a href="./transito.html"> Tránsito </a>
+            </div>
+            <div class="footerIcon">
+                <!--luego ICONO -->
+                <p>Whatsapp +541112223344</p>
+            </div>
+        </div>
+
+        <div class="footerDerecha">
+            <p>Todos los derechos reservados a Huellitas</p>
+            <p>2022</p>
+        </div>
+    </footer>
+</body>
+
+</html>
