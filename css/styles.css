@@ -36,9 +36,11 @@
   align-items: center;
   background-color: #a760ff;
 }
+
 .menu a:hover {
   color: #ffcc8f;
 }
+
 /* display: por defecto es row */
 .menuOpciones {
   /* menu lista */
@@ -81,6 +83,7 @@ li a,
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 /*----- DROPDOWN FIN ----*/
 
 /* realizo la clase active para que quede activo la seccion del menu donde me encuentro parado */
@@ -91,6 +94,7 @@ li a,
   color: #ffcc8f;
   font-weight: 700;
 }
+
 /*----------------------MENU FIN-----------------------*/
 h1 {
   color: #a760ff;
@@ -123,6 +127,7 @@ h3 {
   width: 100px;
   border-radius: 50%;
 }
+
 /* img redonda */
 .imgSize {
   width: 250px;
@@ -130,6 +135,7 @@ h3 {
   border-radius: 50%;
   border: 2px dotted;
 }
+
 .imgSize:hover {
   box-shadow: 2px 2px 2px 2px rgba(204, 146, 21, 0.562);
 }
@@ -137,6 +143,7 @@ h3 {
 .imgContexto {
   width: 300px;
 }
+
 .imgResponsive {
   max-width: 100%;
   height: auto;
@@ -156,6 +163,7 @@ h3 {
   align-items: center;
   margin: 10px;
 }
+
 /* imagen "conciencia" a lo ancho de toda la página */
 .bannerHome {
   background-image: url("../img/mascotas-responsables.jpg");
@@ -167,12 +175,14 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
 .bannerHome p {
   font-size: 2.2em;
   font-weight: 700;
   text-shadow: 2px 2px #000000;
   padding: 30px;
 }
+
 /*-- IMAGEN FIN---*/
 
 /* tipsmascotas */
@@ -230,6 +240,7 @@ h3 {
 .estilo {
   text-align: center;
 }
+
 .containerContacto {
   margin: 20px 0px;
   padding: 20px;
@@ -356,10 +367,10 @@ ol li {
 /*-------------- TRANSITO INICIO ----------------------------------------*/
 
 /*--------------- TRANSITO FIN ------------------------*/
-.textCenter {
+/*.textCenter {
   padding-top: 30px;
-  /*color: #ca82ff;*/
-}
+  /*color: #ca82ff;
+}*/
 
 .textSecundario {
   text-align: center;
@@ -399,20 +410,15 @@ ol li {
 }
 
 .img1 {
-
   background-image: url("https://cdn.pixabay.com/photo/2015/02/21/10/39/dog-644111_960_720.jpg");
-
-
 }
 
 .img2 {
   background-image: url("https://cdn.pixabay.com/photo/2021/11/26/02/39/dog-6824999_960_720.jpg");
-
 }
 
 .img3 {
   background-image: url("https://cdn.pixabay.com/photo/2020/12/21/08/36/dog-5849152_960_720.jpg");
-
 }
 
 .img4 {
@@ -438,7 +444,6 @@ ol li {
 .img9 {
   background-image: url("https://cdn.pixabay.com/photo/2014/06/03/01/31/cat-360807_960_720.jpg");
 }
-
 
 .fotos {
   width: 25%;
@@ -467,7 +472,6 @@ ol li {
   font-size: x-large;
   text-align: center;
   font-family: "Albert Sans", sans-serif;
-
 }
 
 .transitar .parrafo {
@@ -476,23 +480,19 @@ ol li {
   animation-duration: 6s;
   animation-name: slidein;
   text-align: center;
-
 }
 
 @keyframes slidein {
   from {
-      margin-left: 100%;
-      width: 300%
+    margin-left: 100%;
+    width: 300%;
   }
 
   to {
-      margin-left: 0%;
-      width: 100%;
+    margin-left: 0%;
+    width: 100%;
   }
-
-
 }
-
 
 .formulario {
   text-align: center;
@@ -503,25 +503,20 @@ ol li {
   justify-content: center;*/
 }
 
-
 .publicidad {
   display: flex;
   flex-wrap: nowrap;
-  margin: 25px;
-  height: 40vh;
+  margin: 25px 0;
+  padding: 15px;
   gap: 4px;
+  width: 100%;
 }
 
-.publicidad .image {
-  background-image: url("https://cdn.pixabay.com/photo/2021/11/23/18/27/veterinary-6819364_960_720.png");
-  height: 100%;
+.imagePublicidad {
   width: 40%;
-  background-size: cover;
-  justify-content: center;
-  object-position: center;
 }
 
-.publicidad .text {
+.textPublicidad {
   background-color: #f6e7f2;
   padding: 8px;
   color: #b971ed;
@@ -533,10 +528,9 @@ ol li {
   font-size: large;
   color: #b224b7;
   text-align: center;
-
 }
 
-.publicidad .text button {
+.textPublicidad button {
   background: transparent;
   border: 2px solid white;
   padding: 5px;
@@ -548,248 +542,9 @@ ol li {
   -o-border-radius: 5px;
 }
 
-/*.footer {
-  background-color: #ffcc8f;
-  height: auto;
-  padding: 0.8rem;
-  display: flex;
-  justify-content: space-between;
-  font-weight: 300;
-  color: black;
-}*/
 
-/*.footerIzquierda,
-.footerDerecha {
-
-  align-items: center;
-  color: black;
-  padding: 10px;
-  /* si bien ya esta centrado con align-item , cuando el movil es menor a 358 se me rompe el align-item de footerDerecha   */
-/*text-align: left;
-  align-items: center;*/
-
-
-
-
-/*.footerIzquierda a {
-  text-decoration: none;
-  padding: 10px;
-  color: black;
-  /*justify-items: left;*/
-
-
-/*.fooeter> .wapp> .footerIcon {
-  background-size: cover;
-  background-position-x: center;
-  display: inline;
-  padding: 10px;
-  width: 5%;
-  border-radius:305px;
-  -webkit-border-radius:305px;
-  -moz-border-radius:305px;
-  -ms-border-radius:305px;
-  -o-border-radius:305px;
-}*/
-
-
-/*.footerIcon {
-  width: 6%;
-  border-radius: 25px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px;
-  margin: -11px -3px;
-  padding: 9px;
-}
-
-.wapp {
-  margin: 10px;
-
-}*/
 
 /*Media Query*/
-
-@media screen and (max-width: 767px) {
-
-  /* HOME */
-  .menu {
-      /* nav -> logo + menu */
-      flex-direction: column;
-      align-items: flex-start;
-  }
-
-  /* ADOPCION */
-  .estilo {
-      text-align: start;
-  }
-
-  .imgAdopciones {
-      width: 350px;
-      height: 250px;
-      position: relative;
-      left: 20%;
-  }
-
-  .containerContacto {
-      position: relative;
-      left: 15%;
-      font-size: larger;
-  }
-
-  .form {
-      position: relative;
-      font-size: large;
-  }
-
-  /* TRANSITO */
-  /*.galeria-container {
-      width: 100vh;
-      grid-template-columns: repeat(2);
-      grid-gap: 10px;
-      grid-template-rows: 200px;
-  }
-
-  .galeria-container .galeria__item:nth-child(7) {
-      grid-column-start: span 1;
-  }
-
-  .galeria-container .galeria__item:nth-child(8) {
-      grid-column-start: span 1;
-  }
-
-  .imgTransito {
-      object-fit: cover;
-  }
-
-  /* FOOTER */
-  .footer {
-      flex-direction: column;
-      justify-content: center;
-  }
-
-  .footerMenu {
-      display: flex;
-      justify-content: center;
-  }
-}
-
-/*------------------ 
-  MEDIA QUERY MOVIL
--------------------- */
-
-@media screen and (max-width: 576px) {
-
-  /* HOME */
-  .imgSize {
-      width: 150px;
-      height: 150px;
-  }
-
-  .menuOpciones {
-      /* MENU LISTA */
-      display: flex;
-      flex-direction: column;
-  }
-
-  .containerEnlaces {
-      flex-direction: column;
-  }
-
-  /* ADOPCION */
-  .parrafoGeneral {
-      font-size: larger;
-  }
-
-  .imgAdopciones {
-      width: 350px;
-      height: 250px;
-  }
-
-  .containerContacto {
-      font-size: larger;
-  }
-
-  .form {
-      font-size: large;
-  }
-
-  /* CASTRACION */
-  .quieroCastrar {
-      flex-direction: column;
-  }
-
-  ol {
-      margin-left: 0;
-  }
-
-  .textArea {
-      width: 200px;
-  }
-
-}  
-
-/*TRANSITO*/
-
-@media screen and (max-width: 767 ){
-  .publicidad{
-      flex-direction: column;
-      justify-content: center;
-      width: 100%;
-  }
-
-
-  .publicidad .image{
-      flex-direction: column;
-      height: 100%;
-      width: 50%;
-      object-fit: cover; background-size: cover;
-      background-position-x: center;
-      
-      
-  }
-
-  
-}
-
-
-@media screen and (max-width: 576px) {
-  .muestras {
-      flex-direction: column;
-      justify-content: center;
-
-  }
-
-  .fotos {
-      width: 100%;
-  }
-
-  .publicidad {
-      flex-direction: column;
-      
-      justify-content: center;
-
-  }
-  .publicidad .image {
-      flex-direction: column;
-      height: 100%;
-      width: 100%;
-
-  }
-
-
-
-  /*.footer {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }*/
-
-
-}
-/*------------------ 
-  MEDIA QUERY TABLET
--------------------- */
 
 @media screen and (max-width: 767px) {
   /* HOME */
@@ -803,6 +558,7 @@ ol li {
   .estilo {
     text-align: start;
   }
+
   .imgAdopciones {
     width: 350px;
     height: 250px;
@@ -821,28 +577,11 @@ ol li {
     font-size: large;
   }
 
-  /* TRANSITO */
-  .galeria-container {
-    width: 100vh;
-    grid-template-columns: repeat(2);
-    grid-gap: 10px;
-    grid-template-rows: 200px;
-  }
-  .galeria-container .galeria__item:nth-child(7) {
-    grid-column-start: span 1;
-  }
-  .galeria-container .galeria__item:nth-child(8) {
-    grid-column-start: span 1;
-  }
-  .imgTransito {
-    object-fit: cover;
-  }
-
-  /* FOOTER */
   .footer {
     flex-direction: column;
     justify-content: center;
   }
+
   .footerMenu {
     display: flex;
     justify-content: center;
@@ -883,6 +622,7 @@ ol li {
   .containerContacto {
     font-size: larger;
   }
+
   .form {
     font-size: large;
   }
@@ -891,6 +631,147 @@ ol li {
   .quieroCastrar {
     flex-direction: column;
   }
+
+  ol {
+    margin-left: 0;
+  }
+
+  .textArea {
+    width: 200px;
+  }
+}
+
+/*TRANSITO*/
+
+@media screen and (max-width: 767) {
+  .publicidad {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagePublicidad {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .muestras {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .fotos {
+    width: 100%;
+  }
+
+  .publicidad {
+    flex-direction: column;
+
+    justify-content: center;
+  }
+
+  .imagePublicidad {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+}
+/*-----FIN TRANSITO------*/
+
+/*------------------ 
+  MEDIA QUERY TABLET
+-------------------- */
+
+@media screen and (max-width: 767px) {
+  /* HOME */
+  .menu {
+    /* nav -> logo + menu */
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* ADOPCION */
+  .estilo {
+    text-align: start;
+  }
+
+  .imgAdopciones {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    left: 20%;
+  }
+
+  .containerContacto {
+    position: relative;
+    left: 15%;
+    font-size: larger;
+  }
+
+  .form {
+    position: relative;
+    font-size: large;
+  }
+
+  
+  /* FOOTER */
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footerMenu {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*------------------ 
+  MEDIA QUERY MOVIL
+-------------------- */
+
+@media screen and (max-width: 576px) {
+  /* HOME */
+  .imgSize {
+    width: 150px;
+    height: 150px;
+  }
+
+  .menuOpciones {
+    /* MENU LISTA */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .containerEnlaces {
+    flex-direction: column;
+  }
+
+  /* ADOPCION */
+  .parrafoGeneral {
+    font-size: larger;
+  }
+
+  .imgAdopciones {
+    width: 350px;
+    height: 250px;
+  }
+
+  .containerContacto {
+    font-size: larger;
+  }
+
+  .form {
+    font-size: large;
+  }
+
+  /* CASTRACION */
+  .quieroCastrar {
+    flex-direction: column;
+  }
+
   ol {
     margin-left: 0;
   }
@@ -899,24 +780,13 @@ ol li {
     width: 200px;
   }
 
-  /* TRANSITO */
-  .galeria-container {
-    width: 100vh;
-    grid-template-columns: repeat(1, 1fr);
-    margin: 0px;
-    flex-direction: column;
-    margin: 0px;
-    object-fit: cover;
-  }
-  .galeria-container .galeria__item {
-    height: 100%;
-    object-fit: cover;
-  }
+  
 
   /* FOOTER */
   .footer div {
     align-items: center;
   }
+
   .footerIzquierda .div1 {
     display: flex;
     flex-direction: column;
